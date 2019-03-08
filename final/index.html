@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="customtool.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdn.elliemae.io/elliemae/core/ssf/1.0/elli.ssf.guest-with-polyfill.js"></script>
+        <script src="customtool.js"></script>        
+    </head>
+    <body>
+        <div class="title">Custom Tool Demo</div><br>
+
+        <div class="layoutBox">
+            <div class="layoutItem">
+                <table class="fieldGroup">
+                    <tr><td colspan="2" class="groupHeader">Borrower Info</td></tr>
+                    <tr>
+                        <td class="fieldName">First Name</td>
+                        <td class="fieldValue"><input type="text" data-field-id="4000"></td>
+                    </tr>
+                    <tr>
+                        <td class="fieldName">Last Name</td>
+                        <td class="fieldValue"><input type="text" data-field-id="4002"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="layoutItem">
+                <table class="fieldGroup">
+                    <tr><td colspan="2" class="groupHeader">Loan Info</td></tr>
+                    <tr>
+                        <td class="fieldName">Loan Amount</td>
+                        <td class="fieldValue"><input type="text" data-field-id="1109"></td>
+                    </tr>
+                    <tr>
+                        <td class="fieldName">Note Rate</td>
+                        <td class="fieldValue"><input type="text" data-field-id="3"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="layoutItem layoutFill">
+                <table class="fieldGroup">
+                    <tr><td class="groupHeader">Loan JSON</td></tr>
+                    <tr>
+                        <td class="jsonBox"><pre id="loanJson"></pre></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="layoutItem layoutFill">
+                <table class="fieldGroup">
+                    <tr><td class="groupHeader">Custom Data Object</td></tr>
+                    <tr>
+                        <td class="jsonBox"><pre id="cdoJson">Not loaded...</pre></td>
+                    </tr>
+                </table>
+            </div>                  
+        </div>
+    </body>
+</html>
