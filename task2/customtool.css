@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 16px;
+    padding: 10px;
+}
+.title {
+    font-size: 2em;
+    color: firebrick;
+}
+.layoutBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.layoutItem {
+    padding: 5px;
+}
+.layoutFill {
+    flex: 1 1 auto;
+}
+.fieldGroup {
+    border-spacing: 0px;
+    border: 2px solid steelblue;
+    width: 100%;
+}
+.groupHeader {
+    padding: 3px;
+    height: 20px;
+    color: whitesmoke;
+    background-color: steelblue;
+    font-style: italic;
+}
+.fieldName {
+    padding: 3px;
+}
+.fieldValue {
+    padding: 3px;
+}
+.jsonBox {
+    font-family: 'Courier New', Courier, monospace;
+}
+.vscroll {
+    height: 400px;
+    overflow: scroll;
+}
